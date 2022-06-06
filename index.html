@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random PassWord Generator</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use an insecure password again</p>
+
+            <div class="button">
+                <button><img src="./image/lightning-icon.svg" class="icon-generate" alt="lightning">Generate password</button>
+                <input id="password-lenght" type="number" value="8" min="5" max="10">
+                <label for="password-lenght">lenght</label>
+            </div>
+        </div>
+
+        <div class="password">
+            <button class="btn password" id="copy1"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button class="btn password" id="copy2"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button class="btn password" id="copy3"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button class="btn password" id="copy4"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+        </div>
+        <footer>developed by <a href="https://github.com/SamsonAyodele">SamsonAyodele</a></footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
