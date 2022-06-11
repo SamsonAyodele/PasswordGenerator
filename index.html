@@ -14,17 +14,17 @@
             <p>Never use an insecure password again.</p>
 
             <div class="button">
-                <button><img src="./image/lightning-icon.svg" class="icon generate" alt="lightning">Generate password</button>
+                <button><img src="./image/lightning-icon.svg" onclick="renderPassword" class="icon generate" alt="lightning">Generate password</button>
                 <input id="password-lenght" type="number" value="8" min="5" max="10">
                 <label for="password-lenght">lenght</label>
             </div>
         </div>
 
         <div class="password">
-            <button class="btn password" id="copy1"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
-            <button class="btn password" id="copy2"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
-            <button class="btn password" id="copy3"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
-            <button class="btn password" id="copy4"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button onclick="copy()" class="btn password" id="copy1"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button onclick="copy()" class="btn password" id="copy2"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button onclick="copy()" class="btn password" id="copy3"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
+            <button onclick="copy()" class="btn password" id="copy4"><img src="./image/ellipsis-icon.svg" class="icon" alt="ellipsis-icon"></button>
         </div>
         <footer>developed by <a href="https://github.com/SamsonAyodele">SamsonAyodele</a></footer>
     </main>
